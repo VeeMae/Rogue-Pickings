@@ -1,0 +1,172 @@
+/*BASE*/
+body {
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+}
+/* GRID */
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+/* .half-width {
+    float: left;
+    width: 600px;
+    margin: 10px;
+} */
+/* half-width box is changed at the bottom in the 'main' section */
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/* HEADER */
+header .full-width {
+    margin: auto;
+}
+header #header-title {
+    float:left;
+    padding: 20px 0px 5px;
+    width: 500px;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 23px;
+    text-transform: uppercase; 
+}
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-top: 24px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 23px;
+    padding-right: 5px;
+    padding-left: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+#top-section .full-width {
+    padding: 5px 0px;
+    border-bottom: thin solid gray;
+}
+#top-section img {
+    border-top: solid #77a466;
+    border-bottom: solid #77a466;
+}
+#top-section h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 23px;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#top-section p {
+    color:#111111;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.5px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#first-box h3 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+#first-box ul {
+    list-style: none;
+}
+#first-box ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 35px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: -2.7em;
+}
+#second-box .third-width {
+    width: 355px;
+    border-left: thin solid gray;
+    border-right: thin solid gray;  
+    padding-left:35px;
+    padding-right: 35px; 
+}
+#second-box h3 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+#second-box p {
+    color:  #000000;
+    font-size: 16.4px;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+#third-box .third-width {
+    padding-left: 20px;
+    width: 350px;  
+}
+#third-box h3 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* text-indent: 1em; didn't need this code, but can use if 'third-box ul li' indent changes */
+    text-transform: uppercase;
+}
+#third-box ul {
+    list-style: none;
+}
+#third-box ul li {
+    color:  #000000;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 10px;
+    text-indent: -2.5em;
+}
+main .full-width {
+    border-bottom: thin solid gray;
+}
+
+/* FOOTER */
+footer {
+    padding: 25px 0px;
+}
+footer h2 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer span {
+    color:#77a466;
+    font-family: 'Galada', cursive;
+    font-style: italic;
+    text-transform: lowercase;   
+}
